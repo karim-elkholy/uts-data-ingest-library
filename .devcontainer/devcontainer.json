@@ -1,0 +1,5 @@
+{
+    "image": "ghcr.io/karim-elkholy/uts-data-ingest-container:devcontainer",
+    "remoteUser": "devcontainer",
+    "updateRemoteUserUID": true
+}
