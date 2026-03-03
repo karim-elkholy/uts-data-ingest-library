@@ -13,7 +13,7 @@ authors = [
     { name = "person 7", email = "person7@email.com" },
 ]
 requires-python = ">=3.12"
-dependencies = ["cowsay"]
+dependencies = ["cowsay", "pylibtiff"]
 
 [build-system]
 requires = ["uv_build>=0.10.7,<0.11.0"]
