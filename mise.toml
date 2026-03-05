@@ -1,7 +1,0 @@
-[tasks.tests]
-description = "Run tests"
-run = "uv run pytest"
-
-[tasks.app]
-description = "Run application"
-run = "uv run main.py"

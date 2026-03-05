@@ -2,24 +2,35 @@
 
 Python library for calculating with cows.
 
+## Table of Contents
+
+- [Usage](#usage)
+    - [Running `main.py`](#running-mainpy)
+    - [Building the library](#building-the-library)
+    - [Installing dependencies from `pyproject.toml`](#installing-dependencies-from-pyprojecttoml)
+    - [Tests](#tests)
+- [Using the Dev Container (optional)](#using-the-dev-container-optional)
+
 ## Usage
 
 ### Running `main.py`
 
 ```bash
-# With devcontainer
-mise run app
-# Without devcontainer
-uv run pytest
+uv run main.py
 ```
 
-### Tests
+### Building the library 
+
+> uv build
+
+### Installing dependencies from `pyproject.toml`
+
+> uv sync
+
+### Running tests
 
 ```bash
-# With devcontainer
-mise run tests
-# Without devcontainer
-uv run main.py
+uv run pytest
 ```
 
 ## Using the Dev Container (optional)
