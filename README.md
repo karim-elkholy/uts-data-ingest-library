@@ -8,16 +8,14 @@ Python library for calculating with cows.
     - [Running `main.py`](#running-mainpy)
     - [Building the library](#building-the-library)
     - [Installing dependencies from `pyproject.toml`](#installing-dependencies-from-pyprojecttoml)
-    - [Tests](#tests)
+    - [Running Tests](#running-tests)
 - [Using the Dev Container (optional)](#using-the-dev-container-optional)
 
 ## Usage
 
 ### Running `main.py`
 
-```bash
-uv run main.py
-```
+> uv run main.py
 
 ### Building the library 
 
@@ -29,9 +27,8 @@ uv run main.py
 
 ### Running tests
 
-```bash
-uv run pytest
-```
+> uv run pytest
+
 
 ## Using the Dev Container (optional)
 
