@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - name: install uv
+        run: curl -LsSf https://astral.sh/uv/install.sh | sh
       - name: sync
         run: uv sync
       - name: test
@@ -19,6 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - name: install uv
+        run: curl -LsSf https://astral.sh/uv/install.sh | sh
       - name: sync
         run: uv sync
       - name: build
